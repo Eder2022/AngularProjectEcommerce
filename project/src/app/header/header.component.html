@@ -1,0 +1,29 @@
+<header class="main-header" style=" list-style: none;">
+    <h1 class="main-header__title">
+        <span class="main-header__title--blue" >Loja </span><span class="main-header__title--orange ">MixCapg</span>
+    </h1>
+    <div class="main-header__menu" >
+    <nav >
+        <ul>
+            <li >
+                <a routerLink="produtos">Produtos</a>
+                <span class="badge-carrinho-contato-produto"></span>
+            </li>
+            <li > 
+                <i class="fa-solid fa-cart-shopping"></i>
+                <a routerLink="carrinho">Carrinho 
+               </a>
+                <span class="badge-carrinho-contato-produto">{{carrinhoService.obtemCarrinho().length }}  </span>
+            </li>
+            <li >
+                <a routerLink="contato">Contato</a>
+            </li>
+            <div class="icons">
+            <li><a><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.instagram.com/edersantos0/"><i class="fa-brands fa-twitter"></i></a></li></div>
+        </ul>
+    </nav>
+   <app-barra-pesquisa style=" list-style: none;"></app-barra-pesquisa>
+</div>
+</header>

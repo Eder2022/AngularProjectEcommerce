@@ -1,0 +1,13 @@
+.search-form button{
+    width: 40px;
+    height: 30px;
+    background-color: rgb(93, 120, 196);
+    border: none;
+    color: white;
+    font-size: 22px;
+}
+.icons{
+    display:flex;
+    margin-left: 30px;
+    
+}

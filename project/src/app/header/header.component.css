@@ -1,0 +1,81 @@
+
+.li{
+    letter-spacing: 20px;
+}
+.main-header {  
+    display: flex;
+    padding: 20px 0;
+    border-width: 10px 0 0;
+    border-top-style: solid;
+    -o-border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+    border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+    position: relative;
+   
+   flex-grow: unset;
+    
+
+}
+
+.main-header__title {  
+      
+    font-size: 92px;
+    letter-spacing: -1.5px;    
+}
+
+.main-header__title--blue {
+    color: blue;
+}
+
+.main-header__title--orange {
+    color: orange;
+}
+
+.main-header__menu ul {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main-header__menu a{
+    padding: 10px 10px;
+    color: gray;
+    font-weight: 400;
+    font-size: 22px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.main-header__menu a:hover {
+    background-color: rgba(0, 132, 255, 0.486);
+    color: #fff;
+}
+
+.container-menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    flex: 1;
+}
+
+.badge-carrinho-contato-produto {
+    margin-left: 5pxpx;
+    background-color: white;
+    padding: 5px 10px;    
+    border-radius: 4px;
+    color: white;
+}
+
+.search-form button{
+    width: 40px;
+    height: 30px;
+    background-color: rgb(93, 120, 196);
+    border: none;
+    color: white;
+    font-size: 22px;
+}
+.icons{
+    display:flex;
+    margin-left: 30px;
+    
+    
+}
